@@ -1,0 +1,176 @@
+html {
+    height: 100%;
+}
+
+html * {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*Top*/
+.navbar-nav a {
+    position: relative;
+    left: 930px;
+    color: white;
+    border-right: #d7d2cc solid;
+    margin-right: 5px;
+}
+
+.navbar-nav a:last-child {
+    border: none;
+}
+
+a.nav-item.nav-link{
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.container-fluid {
+    background: url(../images/qbkls.png);
+}
+
+.col-12 {
+    padding: 0px;
+}
+
+nav {
+    color: white;
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #304352, #d7d2cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* All Titles */
+    h2 {
+        border-bottom: 1px solid #d7d2cc; 
+    }
+
+/*About Me*/
+#P_Me {
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin: 20px;
+    border: 2px #d7d2cc solid;
+}
+
+.col-10-Main {
+    background-color: white;
+    margin: 20px;
+    border: 3px solid #d7d2cc;
+}
+
+p {
+    position: relative;
+    text-align: center;
+    left: 284px;
+    bottom: 142px;
+    width: 100%;
+    height: 100%;
+    padding: 1px;
+    margin: 0;
+    float: left;
+}
+
+.col-10-Jumbo {
+    margin: 20px;
+    position: relative;
+}
+
+#carouselExampleIndicators {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.w-100 {
+    height: 300px;
+    width: 500px;
+    opacity: 0.45;
+}
+
+.carousel-control-next {
+    top: 50%;
+}
+
+.carousel-control-prev {
+    top: 50%;
+}
+
+.L_Title {
+    color: black;
+    font-size: 25px;
+}
+
+.L_Favorite {
+    color: black;
+    font-size: 18px;
+}
+
+/*Contact*/
+.col-10-Contact {
+    background-color: white;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    border: 3px solid #d7d2cc;
+}
+
+h2 {
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}
+
+#Submit {
+    border: none;
+    background: #4B79A1;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #283E51, #4B79A1);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Portfolio */
+.col-10-Portfolio {
+    background-color: white;
+    margin: 20px;
+    border: 3px solid #d7d2cc;
+}
+
+.P_Image {
+    width: 45%;
+    height: 80%;
+    margin: 20px;
+}
+
+.badge-danger {
+    position: relative;
+    left: -48.5%;
+    width: 45%;
+}
+
+/*Footer*/
+.col-1-Footer {
+    text-align: center;
+    color: black;
+    width: 102%;
+    position: fixed;
+    bottom: 0px;
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #304352, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #304352, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
