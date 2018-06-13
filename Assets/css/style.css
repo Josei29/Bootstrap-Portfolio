@@ -1,113 +1,62 @@
-html {
-    height: 100%;
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+body {
+    background-image: url(../images/qbkls.png);
 }
 
 html * {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-.row {
-    margin: 0 auto;
-    padding: 0;
-}
-
-/*Top*/
-.navbar-nav a {
-    position: relative;
-    left: 930px;
-    color: white;
-    border-right: #d7d2cc solid;
-    margin-right: 5px;
-}
-
-.navbar-nav a:last-child {
-    border: none;
-}
-
-a.nav-item.nav-link{
-    color: white;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: white;
-}
-
 .container-fluid {
-    background: url(../images/qbkls.png);
+    width: 80%;
+    background-color: #ffffff;
+    height: auto;
+    margin: 0 auto;
 }
 
-.col-12 {
-    padding: 0px;
-}
-
-nav {
-    color: white;
-    background: #304352;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #304352, #d7d2cc);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-
-/* All Titles */
-    h2 {
-        border-bottom: 1px solid #d7d2cc; 
-    }
-
-/*About Me*/
-#P_Me {
-    height: 200px;
-    width: 150px;
+h1 {
     float: left;
-    margin: 20px;
-    border: 2px #d7d2cc solid;
+    width: 75%;
+    color: #d7d2cc;
 }
 
-.col-10-Main {
-    background-color: white;
-    margin: 20px;
-    border: 3px solid #d7d2cc;
+a.nav-link.active {
+    color: #d7d2cc !important;
+}
+
+h2 {
+    margin: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d7d2cc;
+    color: #304352;
 }
 
 p {
-    position: relative;
     text-align: center;
-    left: 284px;
-    bottom: 142px;
-    width: 100%;
-    height: 100%;
-    padding: 1px;
-    margin: 0;
-    float: left;
 }
 
-.col-10-Jumbo {
-    margin: 20px;
-    position: relative;
+nav {
+    color: #ffffff;
+    background: #304352;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #304352, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #304352, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#carouselExampleIndicators {
-    width: 500px;
-    margin: 0 auto;
-}
 
-.w-100 {
-    height: 300px;
-    width: 500px;
-    opacity: 0.45;
-}
-
-.carousel-control-next {
-    top: 50%;
-}
-
-.carousel-control-prev {
-    top: 50%;
+#P_Me {
+    width: 200px;
+    height: 220px;
+    margin-left: 20px;
+    min-height: 200px;
+    min-width: 150px;
+    float: left !important;
 }
 
 .L_Title {
@@ -120,21 +69,41 @@ p {
     font-size: 18px;
 }
 
-/*Contact*/
-.col-10-Contact {
-    background-color: white;
+#Car {
     margin: 0 auto;
-    width: 50%;
-    height: 50%;
-    border: 3px solid #d7d2cc;
 }
 
-h2 {
-    margin: 20px;
+#Pizza {
+    width: 300px;
+    height: 350px;
+    opacity: 0.75;
 }
 
-form {
-    margin: 20px;
+#Got {
+    width: 300px;
+    height: 350px;
+    opacity: 0.75;
+}
+
+#Star {
+    width: 300px;
+    height: 350px;
+    opacity: 0.75;
+}
+
+#T_Contact {
+    margin-top: 10px;
+    margin: 0 auto;
+}
+
+.T_Contact {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin: 0 auto;
+}
+
+#Contact {
+    margin: 0 auto;
 }
 
 #Submit {
@@ -144,33 +113,31 @@ form {
     background: linear-gradient(to bottom, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/* Portfolio */
-.col-10-Portfolio {
-    background-color: white;
-    margin: 20px;
-    border: 3px solid #d7d2cc;
-}
-
-.P_Image {
-    width: 45%;
-    height: 80%;
-    margin: 20px;
-}
-
 .badge-danger {
-    position: relative;
-    left: -48.5%;
+    margin: 0 auto;
     width: 45%;
+    margin-left: 19%;
 }
 
-/*Footer*/
-.col-1-Footer {
-    text-align: center;
-    color: black;
-    width: 102%;
+img {
+    max-width: 100%;
+    width: auto\9; /* ie8 */
+    border: #d7d2cc 2px solid;
+}
+
+.PicMargin {
+    margin-left: 20px;
+}
+
+.Footer {
+    width: 100%;
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
+    text-align: center;
     background: #304352;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #304352, #d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #304352, #d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 4px;
+    height: 35px;
+    border-top: 2px solid #d7d2cc;
 }
